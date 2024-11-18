@@ -23,3 +23,10 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+1. The survey titles were impressively descriptive, but I realized they were also unnecessarily long, making them a bit challenging to manage during the analysis process. For instance, the question "What is your annual salary? (You'll indicate the currency in a later question. If you are part-time or hourly, please enter an annualized equivalent -- what you would earn if you worked the job 40 hours a week, 52 weeks a year.)" could have been renamed to something like "annual_salary" right from the beginning. This would have saved so much time and made the entire workflow feel more elegant and streamlined.
+
+2. I found Streamlit's `scatter_chart` feature to be extremely user-friendly and effective for visualizing data quickly.
+
+3. While working with S3 uploads, I noticed that it seems like all users are uploading to the same destination. This raised a question: Is there a way to differentiate uploads by user or another attribute to organize them better?
+
+4. I experimented with using Ruff for code formatting and was impressed by its efficiency and ease of use. It streamlined my workflow significantly.
