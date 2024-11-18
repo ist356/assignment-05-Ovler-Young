@@ -18,7 +18,7 @@ def clean_country_usa(item: str) ->str:
     with 'United States'
     '''
     possibilities = [
-        'united states of america', 'usa', 'us', 'united states', 'u.s.'
+        'united states of america', 'usa', 'us', 'united states', 'u.s.', "america"
     ]
     return 'United States' if item.lower() in possibilities else item
 
