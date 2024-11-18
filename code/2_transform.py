@@ -78,3 +78,18 @@ location_education_report = pd.pivot_table(
 location_education_report.to_csv(
     "cache/annual_salary_adjusted_by_location_and_education.csv"
 )
+
+
+st.header("Annual Salary Adjusted by Location Education")
+st.scatter_chart(location_education_report, size=30)
+st.download_button(
+    "Download Location and Education Report",
+    "cache/annual_salary_adjusted_by_location_and_education.csv",
+)
+
+st.header("Annual Salary Adjusted by Location and Age")
+st.scatter_chart(location_age_report, size=30)
+st.download_button(
+    "Download Location and Age Report",
+    "cache/annual_salary_adjusted_by_location_and_age.csv",
+)
