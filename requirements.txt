@@ -2,3 +2,4 @@ pytest
 pandas
 streamlit
 boto3
+lxml
