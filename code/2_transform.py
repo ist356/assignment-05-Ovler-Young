@@ -55,7 +55,7 @@ combined["_annual_salary_adjusted"] = (
 
 # 4. Produce the reports
 # Save the engineered dataset
-combined.to_csv("cache/survey_dataset.csv", index=False)
+combined.to_csv("cache/survey_combined.csv", index=False)
 
 # Create and save the first report
 location_age_report = pd.pivot_table(
